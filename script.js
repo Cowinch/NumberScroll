@@ -20,6 +20,6 @@ function decrement(){
 }
 
 function updateCount(){
-    document.documentElement.style.setProperty('--offset', `${offsetMultiplier*currentNumber}px`)
+    document.documentElement.style.setProperty('--offset', `${(offsetMultiplier*currentNumber)-(currentNumber/2)}px`)
     
 }
